@@ -1,0 +1,32 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar{
+    background:rgba(255,255,255,0.05);
+    backdrop-filter: blur(25px);
+
+}
+.upload-button{
+    border: solid 2px white;
+    border-radius: 7px;
+    font-weight: 500;
+    height: 40px;
+}
+:hover.upload-button{
+    background-color: white;
+    color: #8FBEF2;
+    transition: ease-in-out 200ms;
+}
+.jecrc-image{
+    height: 740px;
+    width: 100%;
+    z-index: -1;
+}
+.search-box{
+    width: 40%;
+    border-radius: 19px;
+}
+
+/********************************************* GRID *********************************/
